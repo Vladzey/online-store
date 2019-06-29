@@ -1,0 +1,21 @@
+.header {
+
+    &_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+
+    &_dropdown {
+
+        &-main {
+            transition: opacity .3s ease, visibility .3s ease;
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            top: 100%;
+            right: 0;
+        }
+    }
+}

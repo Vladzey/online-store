@@ -1,16 +1,28 @@
 // Colors
 $black: #000;
 $white: #fff;
-$green: #21c753;
+$green: #95c85a;
+$red: #e74c3c;
 
 // type
-$base-f-family: Arial, sans-serif;
+$base-f-family: 'Roboto', Arial, Helvetica, sans-serif;
 $base-f-size: 16px;
 
 // Colors functioanl
 $text-color: $black;
 $base-color: $green;
+$warn-color: $red;
 
 // forms
 $input-border-color: $black;
 $input-border-focus: $green; 
+
+// buttons
+$btn-color: $white;
+$btn-radius: 4px;
+
+$btn-base-bg: $base-color;
+$btn-base-hover: darken($btn-base-bg, 15%);
+
+$btn-warn-bg: $warn-color;
+$btn-warn-hover: darken($btn-warn-bg, 15%);
